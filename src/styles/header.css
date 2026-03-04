@@ -1,0 +1,26 @@
+.header {
+    background-color: rgba(158, 136, 36, 0.767);
+    width: 100%;
+    padding: 20px 10px;
+}
+
+.header ul {
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 0 auto;
+}
+
+.header ul li {
+    list-style: none;
+}
+
+.one {
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+.one:hover {
+    color: white;
+}

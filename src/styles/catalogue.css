@@ -1,0 +1,29 @@
+.catalogue {
+    object-fit: cover;
+    padding: 50px 90px;
+    flex-grow: 1;
+    margin-left: 50px;
+    background: url(/public/money_heist2.jpg) center/cover no-repeat;
+}
+
+.movie_catalogue {
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    overflow-x: auto;
+    padding-bottom: 10px;
+}
+
+.movie_catalogue img {
+    height: 400px;
+    width: 700px;
+    border-radius: 8px;
+    object-fit: cover;
+    cursor: pointer;
+    flex-shrink: 0;
+    transition: 0.5s;
+}
+
+.movie_catalogue img:hover {
+    transform: scale(1.1);
+}

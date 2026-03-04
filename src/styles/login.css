@@ -1,0 +1,35 @@
+.login_container {
+    min-height: 100vh;
+    background: url(/public/money_heist2.jpg) center/cover no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login {
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: 350px;
+    width: 300px;
+    background: rgba(255, 17, 0, 0.562);
+}
+
+.login h1 {
+    color: black;
+}
+
+.login p {
+    color: black;
+}
+
+.login label {
+    color: black;
+}
+
+.login_button {
+    color: white;
+    text-decoration: none;
+}
