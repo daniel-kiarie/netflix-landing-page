@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom'
 // import search from '/search.png'
 import home from '/home.png'
 import clap from '/video clap.jpg'
-import screen from '/screen.png'
+// import screen from '/screen.png'
 // import add from '/add.png'
 // import shuffle from '/shuffle.png'
 
@@ -18,7 +18,7 @@ const navItems = [
   { icon: home,    alt: 'Home',     to: '/',           isLink: true },
 //   { icon: search,  alt: 'Search',   to: '#search',     isLink: false },
   { icon: clap,    alt: 'Catalogue',to: '/catalogues', isLink: true },
-  { icon: screen,  alt: 'Screen',   to: '#',           isLink: false },
+//   { icon: screen,  alt: 'Screen',   to: '#',           isLink: false },
 //   { icon: add,     alt: 'Add',      to: '#',           isLink: false },
 //   { icon: shuffle, alt: 'Shuffle',  to: '#',           isLink: false },
 ]
