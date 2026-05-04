@@ -1,12 +1,12 @@
 import React, { useState } from 'react'
 import { Link } from 'react-router-dom'
 
-import search from '/search.png'
+// import search from '/search.png'
 import home from '/home.png'
 import clap from '/video clap.jpg'
 import screen from '/screen.png'
-import add from '/add.png'
-import shuffle from '/shuffle.png'
+// import add from '/add.png'
+// import shuffle from '/shuffle.png'
 
 import imdb from '/imdb.png'
 import netflix from '/netflix.png'
@@ -16,11 +16,11 @@ import "../styles/home.css"
 
 const navItems = [
   { icon: home,    alt: 'Home',     to: '/',           isLink: true },
-  { icon: search,  alt: 'Search',   to: '#search',     isLink: false },
+//   { icon: search,  alt: 'Search',   to: '#search',     isLink: false },
   { icon: clap,    alt: 'Catalogue',to: '/catalogues', isLink: true },
   { icon: screen,  alt: 'Screen',   to: '#',           isLink: false },
-  { icon: add,     alt: 'Add',      to: '#',           isLink: false },
-  { icon: shuffle, alt: 'Shuffle',  to: '#',           isLink: false },
+//   { icon: add,     alt: 'Add',      to: '#',           isLink: false },
+//   { icon: shuffle, alt: 'Shuffle',  to: '#',           isLink: false },
 ]
 
 const Home = () => {
